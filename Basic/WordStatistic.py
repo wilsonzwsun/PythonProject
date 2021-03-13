@@ -1,7 +1,8 @@
 import re
 import os
 
-class WordStatis:
+class WordStatis():
+
 	BUFFER_SIZE = 200
 	def __init__(self):
 		self.__statis_text__={}	
