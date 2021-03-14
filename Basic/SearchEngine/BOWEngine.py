@@ -12,7 +12,7 @@ class BOWEngine(SearchEngineBase):
     def add_corpus(self, file_path):
         super(BOWEngine, self).add_corpus(file_path)
 
-    #
+    ######
     def process_corpus(self, id, text):
         # raise Exception('~ not implemented.')
         self.__text_dict__[id] = self.parse_words(text)
